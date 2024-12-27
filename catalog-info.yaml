@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cogni-report-framework
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: cogniwide/sample-report-framework
+  tag:
+    - python
+    - react
+spec:
+  type: service
+  lifecycle: dev
+  owner: devteam
